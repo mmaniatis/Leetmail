@@ -19,7 +19,7 @@ public class FlowIT {
     }
 
     @Test
-    public void WiringIT() {
+    public void FlowIt() {
         leetcodeMailDriver.drive();
     }
 

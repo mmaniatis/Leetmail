@@ -22,4 +22,13 @@ public class LeetcodeSubscription {
             throw new NullPointerException("Last sent date cannot be set to null.");
         }
     }
+
+    public String getCadence(){
+
+        return this.cadence;
+    }
+
+    public Date getLastSent(){
+        return this.lastSent;
+    }
 }

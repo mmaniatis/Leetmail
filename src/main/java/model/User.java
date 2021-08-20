@@ -15,4 +15,8 @@ public class User {
     public void addSubscription(LeetcodeSubscription subscription) {
         this.subscriptions.add(subscription);
     }
+
+    public List<LeetcodeSubscription> getSubscriptions() {
+        return this.subscriptions;
+    }
 }
