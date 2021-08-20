@@ -1,4 +1,4 @@
-package service;
+package service.scrape;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,11 +13,11 @@ import org.openqa.selenium.WebElement;
 
 public class LeetCodeScrapeService implements ScrapeService<Map<String, List<LeetcodeQuestion>>> {
     final WebDriver webDriver;
-    final static String ELEMENT_TO_WAIT_ON = "table.table__XKyc";
-    final static String ELEMENT_TO_SCRAPE = ".reactable-data tr";
-    final static String EASY_DIFFICULTY = "easy";
-    final static String MEDIUM_DIFFICULTY = "medium";
-    final static String HARD_DIFFICULTY = "hard";
+    private final static String ELEMENT_TO_WAIT_ON = "table.table__XKyc";
+    private final static String ELEMENT_TO_SCRAPE = ".reactable-data tr";
+    private final static String EASY_DIFFICULTY = "easy";
+    private final static String MEDIUM_DIFFICULTY = "medium";
+    private final static String HARD_DIFFICULTY = "hard";
 
 
     public LeetCodeScrapeService(WebDriver _webDriver) {

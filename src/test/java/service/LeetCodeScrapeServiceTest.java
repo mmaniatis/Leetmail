@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import service.scrape.LeetCodeScrapeService;
 
 import java.util.List;
 import java.util.Map;
